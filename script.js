@@ -43,7 +43,7 @@ function load(lesson) {
   try {
     iconImg.setAttribute("src", "http://port.vincentxie.net" + lesson.icon.formats.thumbnail.url)
   } catch (TypeError) {
-    iconImg.setAttribute("src", "https://icanc.space/img/banner/home-left-1-cool.png");
+    iconImg.setAttribute("src", "https://icanc.space/img/banner/home-left-1-cool-not-found.png");
   }
   iconImg.setAttribute("class", "iconImg")
   imgDiv.appendChild(iconImg)
