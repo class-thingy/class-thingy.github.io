@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:100,400&display=swap');
+
+html, body {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+.mainContainer {
+    max-width: 1100px;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px;
+}
+
+.rounded {
+    border-radius: 10px
+}
+
+.center {
+    margin: 0 auto;
+}
+ 
+.cardDiv {
+    min-height: 150px;
+    display: flex;
+    margin: 5px 0px 5px 0px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.cardTitle {
+    margin-top: 0%;
+    font-size: 30px;
+}
+
+.contentDiv {
+    margin: 0px 0px 0px 50px;
+}
+
+.iconImg {
+    max-width: 128px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    /* border-style: solid;
+    border-color: #e6ddd3;
+    border-radius: 5px; */
+}
+
+.smallIcon {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.smallInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.smallItems {
+    font-size: 18px;
+    position: relative;
+    padding-right: 5px;
+    margin-top: 1%;
+}
